@@ -19,8 +19,10 @@ RSpec.describe "Actors Show Page" do
     expect(page).to have_content("Age: 56")
   end
 
-  xit "can display a unique list of all the actors worked with" do
+  it "can display a unique list of all the actors worked with" do
     visit "/actors/#{@johnny.id}"
+
+    save_and_open_page
     expect(page).to have_content("Keira Knightley")
     expect(page).to have_content("Orlando Bloom")
   end
