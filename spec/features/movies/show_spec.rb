@@ -29,7 +29,7 @@ RSpec.describe "Movie Show Page" do
     fill_in :name, with: "Geoffrey Rush"
 
     click_on "Add Actor to Movie"
-    save_and_open_page
+    
     expect(current_path).to eq("/movies/#{@pirates.id}")
     expect(page).to have_content("Geoffrey Rush")
   end
