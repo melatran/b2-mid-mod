@@ -14,7 +14,7 @@ RSpec.describe "Movie Show Page" do
 
   it "can display movie's, title, creation year, genre, actors from youngest to oldest, and average age" do
     visit "/movies/#{@pirates.id}"
-
+    save_and_open_page
     expect(page).to have_content("Pirates of the Carribean")
     expect(page).to have_content("Created In: 2003")
     expect(page).to have_content("Genre: Action")
