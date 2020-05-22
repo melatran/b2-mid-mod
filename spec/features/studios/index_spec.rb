@@ -11,14 +11,14 @@ RSpec.describe "Studio Index Page" do
 
   it "can display all the studios with a list of all its movies" do
     visit "/studios"
-
-    within ".studios-#{disney.id}" do
+    
+    within ".studios-#{@disney.id}" do
       expect(page).to have_content("Walt Disney")
       expect(page).to have_content("Finding Nemo")
       expect(page).to have_content("Pirates of the Carribean")
     end
 
-    within ".studios-#{universal.id}" do
+    within ".studios-#{@universal.id}" do
       expect(page).to have_content("Universal Studios")
       expect(page).to have_content("Despicable Me")
     end

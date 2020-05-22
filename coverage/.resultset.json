@@ -206,6 +206,7 @@
         "lines": [
           1,
           null,
+          1,
           null
         ]
       },
@@ -301,8 +302,24 @@
           1,
           null
         ]
+      },
+      "/Users/melanietran/turing/Mod2/independent_challenges/b2-mid-mod/app/controllers/studios_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/melanietran/turing/Mod2/independent_challenges/b2-mid-mod/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1590161974
+    "timestamp": 1590162459
   }
 }
