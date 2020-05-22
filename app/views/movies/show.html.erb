@@ -3,6 +3,8 @@
 <h3>Created In: <%= @movie.creation_year %></h3>
 
 <h2> Starring </h2>
-<% @movie.actors.sort_by_age.each do |actor| %>
-  <li> actor.name </li>
+<% @movie.sort_by_age.each do |actor| %>
+  <li><%= actor.name %></li>
 <% end %>
+
+<h3> Average Age of Actors: <%= @movie.average_actor_age %></h3>
