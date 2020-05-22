@@ -19,7 +19,7 @@ RSpec.describe "Movie Show Page" do
     expect(page).to have_content("Genre: Action")
     expect("Keira Knightley").to appear_before("Orlando Bloom")
     expect("Orlando Bloom").to appear_before("Johnny Depp")
-    expect(page).to have_content("Average Age of Actors: 44.7 years old")
+    expect(page).to have_content("Average Age of Actors: 44.67 years old")
   end
 end
 
