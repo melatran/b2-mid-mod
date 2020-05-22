@@ -215,6 +215,18 @@
           null
         ]
       },
+      "/Users/melanietran/turing/Mod2/independent_challenges/b2-mid-mod/spec/models/actor_movies_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
       "/Users/melanietran/turing/Mod2/independent_challenges/b2-mid-mod/app/models/actor_movie.rb": {
         "lines": [
           1,
@@ -291,6 +303,6 @@
         ]
       }
     },
-    "timestamp": 1590161380
+    "timestamp": 1590161974
   }
 }
