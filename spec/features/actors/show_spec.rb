@@ -16,7 +16,7 @@ RSpec.describe "Actors Show Page" do
     visit "/actors/#{@johnny.id}"
 
     expect(page).to have_content("Johnny Depp")
-    expect(page).to have_content("Age: 43")
+    expect(page).to have_content("Age: 56")
   end
 end
 
