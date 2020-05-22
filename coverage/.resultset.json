@@ -215,15 +215,38 @@
           null
         ]
       },
+      "/Users/melanietran/turing/Mod2/independent_challenges/b2-mid-mod/app/models/actor_movie.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/melanietran/turing/Mod2/independent_challenges/b2-mid-mod/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
       "/Users/melanietran/turing/Mod2/independent_challenges/b2-mid-mod/spec/models/actor_spec.rb": {
         "lines": [
           1,
           null,
           1,
-          0,
-          0,
-          0,
+          1,
+          2,
+          2,
           null,
+          null
+        ]
+      },
+      "/Users/melanietran/turing/Mod2/independent_challenges/b2-mid-mod/app/models/actor.rb": {
+        "lines": [
+          1,
+          1,
+          1,
           null
         ]
       },
@@ -232,11 +255,20 @@
           1,
           null,
           1,
-          0,
-          0,
-          0,
-          0,
+          1,
+          2,
+          2,
+          2,
           null,
+          null
+        ]
+      },
+      "/Users/melanietran/turing/Mod2/independent_challenges/b2-mid-mod/app/models/movie.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
           null
         ]
       },
@@ -245,13 +277,20 @@
           1,
           null,
           1,
-          0,
-          0,
+          1,
+          2,
           null,
+          null
+        ]
+      },
+      "/Users/melanietran/turing/Mod2/independent_challenges/b2-mid-mod/app/models/studio.rb": {
+        "lines": [
+          1,
+          1,
           null
         ]
       }
     },
-    "timestamp": 1590160842
+    "timestamp": 1590161380
   }
 }
